@@ -33,7 +33,7 @@ const Home = () => {
         }
       }
 
-      const url = "http://localhost:4040/products";
+      const url = "https://deploy-mern-app-api1.vercel.app/products";
       const response = await fetch(url, headers);
       const result = await response.json();
       console.log(result);
