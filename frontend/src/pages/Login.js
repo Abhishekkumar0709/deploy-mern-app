@@ -39,7 +39,7 @@ function Login() {
         }
 
         try {
-            const url = "http://localhost:4040/auth/login";
+            const url = "https://deploy-mern-app-api1.vercel.app/login";
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
